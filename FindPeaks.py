@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def find_peaks(a, dx = 0, h = 0, debug = False):
             """
                 Finds the local maxima of an array. 
